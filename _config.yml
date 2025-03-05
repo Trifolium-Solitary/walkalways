@@ -101,6 +101,4 @@ theme: fluid
 # Deployment
 ## Docs: https://hexo.io/docs/one-command-deployment
 deploy:
-  type: "git"
-  repository: https://github.com/Trifolium-Solitary/Trifolium-Solitary.github.io.git
-  branch: main
+  type: ''
