@@ -102,7 +102,8 @@
 
 
   
-<meta name="generator" content="Hexo 7.3.0"></head>
+<meta name="generator" content="Hexo 7.3.0"><link rel="alternate" href="/atom.xml" title="59号笔记" type="application/atom+xml">
+</head>
 
 
 <body>
@@ -371,7 +372,7 @@
       
         jQuery.ajax({
           type: 'GET',
-          url: 'https://v1.hitokoto.cn/?c=d&c=k&c=h&c=i&encode=text',
+          url: 'https://v1.hitokoto.cn/?c=d&c=k&c=h&c=i',
           headers: {},
           dataType: 'json',
           success: function(result) {
@@ -395,7 +396,7 @@
           },
           error: function(xhr, status, error) {
             if (error) {
-              console.error('Failed to request https://v1.hitokoto.cn/?c=d&amp;c=k&amp;c=h&amp;c=i&amp;encode=text:', error);
+              console.error('Failed to request https://v1.hitokoto.cn/?c=d&amp;c=k&amp;c=h&amp;c=i:', error);
             }
             typing(text);
           }
