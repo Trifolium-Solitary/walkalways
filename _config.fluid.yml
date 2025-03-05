@@ -237,7 +237,7 @@ custom_js:
 
 # 指定自定义 .css 文件路径，用法和 custom_js 相同
 # The usage is the same as custom_js
-custom_css:
+custom_css: /css/custom.css
 
 # 网页访问统计
 # Analysis of website visitors
@@ -449,7 +449,7 @@ footer:
     <a href="https://hexo.io" target="_blank" rel="nofollow noopener"><span>Hexo</span></a>
     <i class="iconfont icon-love"></i>
     <a href="https://github.com/fluid-dev/hexo-theme-fluid" target="_blank" rel="nofollow noopener"><span>Fluid</span></a>
-  '
+   '
 
   # 展示网站的 PV、UV 统计数
   # Display website PV and UV statistics
@@ -493,25 +493,18 @@ index:
   # Opacity of the banner mask, 1.0 is completely opaque
   # Available: 0 - 1.0
   banner_mask_alpha: 0.3
-
   # 首页副标题的独立设置
   # Independent config of home page subtitle
   slogan:
     enable: true
-
-    # 为空则按 hexo config.subtitle 显示
-    # If empty, text based on `subtitle` in hexo config
-    text: " "
-
     # 通过 API 接口作为首页副标题的内容，必须返回的是 JSON 格式，如果请求失败则按 text 字段显示，该功能必须先开启 typing 打字机功能
     # Subtitle of the homepage through the API, must be returned a JSON. If the request fails, it will be displayed in `text` value. This feature must first enable the typing animation
     api:
       enable: true
-
       # 请求地址
       # Request url
       url: "https://v1.hitokoto.cn/?c=d&c=k&c=h&c=i"
-
+      
       # 请求方法
       # Request method
       # Available: GET | POST | PUT
@@ -985,7 +978,7 @@ about:
   # More icons can be found from https://hexo.fluid-dev.com/docs/en/icon/  `class` is the css class of the icon. If adding `qrcode`, the icon is no longer a link, but a hovering QR code
   icons:
     - { class: "iconfont icon-wechat-fill", qrcode: "/img/wechat.png" }
-    - { class: "iconfont icon-zhihu-fill", link: "https://www.zhihu.com/people/ting-yu-xuan-80-11-67", tip: "知乎" }
+    - { class: "iconfont icon-mail", link: "mailto:trifolium.core@outlook.com" }
     - { class: "iconfont icon-rss", link: "/atom.xml" }
 
 

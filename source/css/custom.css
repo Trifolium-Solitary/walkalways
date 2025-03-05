@@ -1,0 +1,13 @@
+/* 居中且删除句号 */
+/* 针对你的 HTML 结构定制样式 */
+#subtitle {
+    text-align: center !important;
+    display: block;
+    width: 100%;
+    margin: 0 auto;
+  }
+  
+  /* 移除打字机光标（如果需要） */
+  #subtitle::after {
+    display: none !important;
+  }

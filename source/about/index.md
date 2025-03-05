@@ -3,4 +3,4 @@ title: about
 date: 2025-03-05
 layout: about
 ---
-Stay hungry，Stay foolish
+<p style="text-align: center;">Stay hungry，Stay foolish</p>
